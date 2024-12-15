@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 400px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top-right-radius: 10px;
+
+}
+.i1{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    color: hsl(223, 47%, 23%);
+}
+.p1{
+    text-align: center;
+    color: gray;
+}
+.content{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.d2{
+    display: flex;
+    background-color:hsl(225, 100%, 98%) ;
+    border-radius: 10px;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    width: 100%;
+
+}
+.h2{
+    font-size: 20px;
+}
+
+.bg-1{
+    position: absolute;
+    width: 100%;
+    bottom: 550px;
+    z-index: -1;
+}
+.b2{
+    background-color: hsl(245, 75%, 52%);
+    border: 0px;
+    padding: 10px;
+    width: 90%;
+    color: white;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.b3{
+    border: 0px;
+    background-color: white;
+}
+.b3:hover{
+    text-decoration: underline;
+}
+.b2:hover{
+    background-color: hsl(245, 72%, 65%)
+}
